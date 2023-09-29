@@ -48,7 +48,7 @@ function App() {
         <input
           className='rounded-md border-blue-400 border-2 p-3 h-min w-full max-w-[400px]'
           type="text"
-          placeholder='Miről szeretnél képet?'
+          placeholder='Miről szeretnél képet? (utána enter)'
           value={search}
           onChange={(e)=>setSearch(e.target.value)}
           onKeyDown={(e)=>getData(e)} />
