@@ -26,13 +26,13 @@ function App() {
   }
 
   return (
-    <main className="bg-gray-50 min-h-screen flex justify-center items-center flex-col gap-5">
+    <main className="flex flex-col items-center justify-center min-h-screen gap-5 bg-gray-50">
 
 
         { !loading ?
-          <div className='flex'>
+          <div className='flex items-center'>
 
-            {(imageIndex!== -images.length && images.length > 1)?
+            {(imageIndex !== -images.length && images.length !== 0 )?
               <Button set={()=>setImageIndex(imageIndex-1)}>{'<'}</Button>:""}
 
             { images.length > 0 ? <Image img={images.at(imageIndex)} /> : '' }
