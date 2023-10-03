@@ -6,6 +6,7 @@ Az OpenAI API-ra épülő képgeneráló alkalmazás, ahol képet tudunk kérni 
 
 1. node kell hozzá https://nodejs.org
 2. terminállal a mappá belenavigálni és "npm install"
+3. install után kiadni ezt a parancsot: "npm run dev"
 
 ## Felhasznált technológiák:
 
